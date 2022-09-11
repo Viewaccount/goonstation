@@ -266,10 +266,10 @@ var/global/list/playersSeen = list()
 			mobRef = 1
 			M = target
 
-		if (mobRef)
-			if (M.client && M.client.holder && (M.client.holder.level >= src.holder.level))
-				alert("You can't ban another admin you huge jerk!!!!!")
-				return null
+		// if (mobRef)
+		// 	if (M.client && M.client.holder && (M.client.holder.level >= src.holder.level))
+		// 		alert("You can't ban another admin you huge jerk!!!!!")
+		// 		return null
 
 		var/data[] = new()
 
